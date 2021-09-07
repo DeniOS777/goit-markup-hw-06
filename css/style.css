@@ -644,7 +644,7 @@ body {
 }
 
 /* Стили к label */
-.form-label {
+.footer-form-label {
   margin-bottom: 20px;
 
   font-size: 14px;
@@ -654,7 +654,7 @@ body {
 }
 
 /* Стили к полю ввода */
-.form-input {
+.footer-form-input {
   width: 358px;
   min-height: 50px;
   padding: 15px 16px;
@@ -676,7 +676,7 @@ body {
 }
 
 /* Стили к кнопке подписки */
-.form-btn {
+.footer-form-btn {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -701,13 +701,13 @@ body {
 }
 
 /* Стили к кнопке подписки при ховере и фокусе */
-.form-btn:hover,
-.form-btn:focus {
+.footer-form-btn:hover,
+.footer-form-btn:focus {
   background-color: #188ce8;
 }
 
 /* Стили к иконке на кнопке */
-.icon-btn {
+.footer-icon-btn {
   margin-left: 10px;
   fill: #ffffff;
 }
@@ -935,7 +935,13 @@ body {
   padding: 40px;
 }
 
+.modal-form-group {
+  display: flex;
+  flex-direction: column;
+}
+
 .contact-details-head {
+  margin-bottom: 12px;
   font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
