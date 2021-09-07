@@ -630,17 +630,20 @@ body {
 
 /*...................... Ф О Р М А ......................*/
 
+/* Флекс на форму для компоновки */
 .footer-form {
   display: flex;
   align-items: flex-end;
-  margin-left: 93px;
+  margin-left: auto;
 }
 
+/* Флекс на div для компоновки в колонку */
 .form-group {
   display: flex;
   flex-direction: column;
 }
 
+/* Стили к label */
 .form-label {
   margin-bottom: 20px;
 
@@ -650,6 +653,7 @@ body {
   text-transform: uppercase;
 }
 
+/* Стили к полю ввода */
 .form-input {
   width: 358px;
   min-height: 50px;
@@ -657,18 +661,21 @@ body {
 
   font-size: 16px;
   color: rgba(255, 255, 255, 0.6);
+
   background-color: rgba(47, 48, 58, 1);
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
 }
 
+/* Стили к плэйсхолдеру поля ввода */
 .form-input::placeholder {
   font-size: 16px;
   line-height: 1.25;
   color: rgba(255, 255, 255, 0.6);
 }
 
+/* Стили к кнопке подписки */
 .form-btn {
   display: flex;
   justify-content: center;
@@ -677,24 +684,29 @@ body {
   padding: 10px 0;
   min-width: 200px;
   min-height: 50px;
+
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
   color: #ffffff;
+
   border-style: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   background-color: #2196f3;
   cursor: pointer;
+
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+/* Стили к кнопке подписки при ховере и фокусе */
 .form-btn:hover,
 .form-btn:focus {
   background-color: #188ce8;
 }
 
+/* Стили к иконке на кнопке */
 .icon-btn {
   margin-left: 10px;
   fill: #ffffff;
