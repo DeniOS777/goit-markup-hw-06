@@ -638,7 +638,7 @@ body {
 }
 
 /* Флекс на div для компоновки в колонку */
-.form-group {
+.footer-form-group {
   display: flex;
   flex-direction: column;
 }
@@ -926,4 +926,20 @@ body {
 .modal-close-btn:hover .modal-close-icon,
 .modal-close-btn:focus .modal-close-icon {
   fill: var(--accent-color);
+}
+
+/*...................... Ф О Р М А  В  М О Д А Л К Е ......................*/
+
+.modal-form {
+  width: 528px;
+  padding: 40px;
+}
+
+.contact-details-head {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-title-color);
 }
