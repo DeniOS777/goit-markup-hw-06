@@ -216,8 +216,7 @@ body {
   text-align: center;
 
   background-color: #c4c4c4;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url(../images/hero-bg.jpg);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-bg.jpg);
   background-repeat: no-repeat;
   background-size: 1600px 600px;
   background-position: center;
@@ -376,8 +375,7 @@ body {
   margin-left: 30px;
 
   background-color: #ffffff;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -426,8 +424,7 @@ body {
 
 /* Блоки в списке соц сетей */
 .social-networks-link {
-  transition: background-color var(--tr-duration) var(--tr-function),
-    color var(--tr-duration) var(--tr-function);
+  transition: background-color var(--tr-duration) var(--tr-function), color var(--tr-duration) var(--tr-function);
 
   display: flex;
   width: 100%;
@@ -747,8 +744,7 @@ body {
 
 /* Стили к кнопкам фильтра */
 .filter-button {
-  transition: color var(--tr-duration) var(--tr-function),
-    background-color var(--tr-duration) var(--tr-function),
+  transition: color var(--tr-duration) var(--tr-function), background-color var(--tr-duration) var(--tr-function),
     box-shadow var(--tr-duration) var(--tr-function);
 
   padding: 6px 22px;
@@ -769,8 +765,7 @@ body {
 .filter-button:focus {
   color: #ffffff;
   background-color: #2196f3;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 /* Флекс на список проектов */
@@ -821,8 +816,7 @@ body {
 /* Эффект выделения тенью при ховере и фокусе */
 .projects-link:hover,
 .projects-link:focus {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 /* Эффект анимации при ховере и фокусе */
@@ -869,8 +863,7 @@ body {
   height: 100vh;
   opacity: 1;
   visibility: visible;
-  transition: opacity var(--tr-duration) var(--tr-function),
-    visibility var(--tr-duration) var(--tr-function);
+  transition: opacity var(--tr-duration) var(--tr-function), visibility var(--tr-duration) var(--tr-function);
   background-color: rgba(0, 0, 0, 0.2);
 }
 
@@ -889,13 +882,12 @@ body {
   opacity: 1;
   visibility: visible;
   transform: translate(-50%, -50%) scale(1.2) rotate(360deg);
-  transition: transform var(--tr-duration) var(--tr-function),
-    opacity var(--tr-duration) var(--tr-function), visibility var(--tr-duration) var(--tr-function);
+  transition: transform var(--tr-duration) var(--tr-function), opacity var(--tr-duration) var(--tr-function),
+    visibility var(--tr-duration) var(--tr-function);
   min-width: 528px;
   min-height: 581px;
   background-color: #ffffff;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 }
 
@@ -932,12 +924,44 @@ body {
 
 .modal-form {
   width: 528px;
+  margin: 0 auto;
   padding: 40px;
 }
 
 .modal-form-group {
   display: flex;
   flex-direction: column;
+}
+
+.modal-form-label {
+  margin-bottom: 4px;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.01em;
+  color: var(--text-color);
+}
+
+.modal-form-input {
+  margin-bottom: 10px;
+  padding: 12px 42px;
+  min-height: 40px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+}
+
+.modal-form-text {
+  padding: 12px 16px;
+  min-height: 120px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  resize: none;
+}
+
+.modal-form-text::placeholder {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.01em;
+  color: rgba(117, 117, 117, 0.5);
 }
 
 .contact-details-head {
