@@ -991,6 +991,12 @@ body {
 .modal-form-agree label {
   font-size: 14px;
   line-height: 1.71;
+  color: var(--text-color);
+}
+
+.modal-form-link {
+  color: var(--accent-color);
+  text-decoration-line: underline;
 }
 
 .modal-btn-center {
