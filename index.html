@@ -536,18 +536,22 @@
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
+        <!-- Форма в модальном окне -->
         <form class="modal-form" autocomplete="off">
-          <div class="modal-form-group" role="group">
+          <div class="modal-form-group">
             <p class="contact-details-head">Оставьте свои данные, мы вам перезвоним</p>
-            <label class="modal-form-label" for="input-name">Имя</label>
-            <input class="modal-form-input" type="text" name="input-name" id="input-name" required />
-
-            <label class="modal-form-label" for="input-tel">Телефон</label>
-            <input class="modal-form-input" type="tel" name="input-tel" id="input-tel" required />
-
-            <label class="modal-form-label" for="input-email">Почта</label>
-            <input class="modal-form-input" type="email" name="input-email" id="input-email" required />
-
+            <label class="modal-form-label" for="username">Имя</label>
+            <input class="modal-form-input" type="text" name="username" id="username" required />
+          </div>
+          <div class="modal-form-group">
+            <label class="modal-form-label" for="user-tel">Телефон</label>
+            <input class="modal-form-input" type="tel" name="telephone" id="user-tel" required />
+          </div>
+          <div class="modal-form-group">
+            <label class="modal-form-label" for="user-email">Почта</label>
+            <input class="modal-form-input" type="email" name="email" id="user-email" required />
+          </div>
+          <div class="modal-form-group">
             <label class="modal-form-label" for="input-comment">Комментарий</label>
             <textarea
               class="modal-form-text"
@@ -555,9 +559,13 @@
               id="input-comment"
               placeholder="Введите текст"
             ></textarea>
-
-            <label class="modal-form-agree" for="agree"></label>
-            <input type="checkbox" name="agree" value="" id="agree" />
+          </div>
+          <div class="modal-form-agree">
+            <input type="checkbox" name="agree" value="yes" id="agree" />
+            <label for="agree">Соглашаюсь с рассылкой и принимаю Условия договора</label>
+          </div>
+          <div class="modal-btn-center">
+            <button class="modal-form-btn" type="submit">Отправить</button>
           </div>
         </form>
       </div>
