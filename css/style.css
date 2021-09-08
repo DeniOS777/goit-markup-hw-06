@@ -956,10 +956,22 @@ body {
 }
 
 .modal-form-input {
+  width: 100%;
   padding: 10px 42px;
   min-height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+}
+
+.icon-wrapper {
+  position: relative;
+}
+
+.icon-form {
+  position: absolute;
+  top: 50%;
+  left: 12px;
+  transform: translateY(-50%);
 }
 
 .modal-form-text {
