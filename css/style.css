@@ -967,7 +967,6 @@ body {
 
 .modal-form-input:focus {
   border-color: var(--accent-color);
-  outline: none;
 }
 
 .modal-form-input:focus + .icon-form {
