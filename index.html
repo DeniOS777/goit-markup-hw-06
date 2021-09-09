@@ -572,21 +572,25 @@
               class="modal-form-text"
               name="input-comment"
               id="input-comment"
-              placeholder="Введите текст"
+              placeholder="Введите текст..."
             ></textarea>
           </div>
           <div class="modal-form-agree">
-            <input type="checkbox" name="agree" value="yes" id="agree" required />
-            <label for="agree"
-              >Соглашаюсь с рассылкой и принимаю
-              <a
-                class="modal-form-link"
-                href="https://dic.academic.ru/dic.nsf/fin_enc/30790"
-                target="_blank"
-                rel="noopener noreferrer"
-                >Условия договора</a
-              ></label
-            >
+            <input
+              class="visually-hidden modal-checkbox"
+              type="checkbox"
+              name="agree"
+              value="yes"
+              id="agree"
+              required
+            />
+            <label class="check-label" for="agree"
+              ><span class="form-wrapper" tabindex="0">
+                <svg class="icon-check" width="11" height="8">
+                  <use href="./images/icons.svg#icon-check"></use>
+                </svg> </span
+              >Соглашаюсь с рассылкой и принимаю <a class="modal-form-link" href="">Условия договора</a>
+            </label>
           </div>
           <button class="modal-form-btn" type="submit">Отправить</button>
         </form>
