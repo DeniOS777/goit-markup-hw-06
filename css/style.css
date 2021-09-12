@@ -1115,6 +1115,6 @@ body {
 }
 
 /* Фокус на чекбокс */
-.modal-checkbox + .check-label .form-wrapper:focus {
+.modal-checkbox:focus + .check-label .form-wrapper {
   border-color: var(--accent-color);
 }
