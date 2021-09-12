@@ -1045,6 +1045,18 @@ body {
   margin-bottom: 30px;
 }
 
+/* Стили для скрытия оригинального чекбокса */
+.modal-checkbox {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
 /* Стили к лэйбл в соглашении */
 .check-label {
   display: flex;
