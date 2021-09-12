@@ -884,7 +884,7 @@ body {
   transform: translate(-50%, -50%) scale(1) rotate(360deg);
   transition: transform var(--tr-duration) var(--tr-function), opacity var(--tr-duration) var(--tr-function),
     visibility var(--tr-duration) var(--tr-function);
-  padding: 40px 0;
+  padding: 40px;
   min-width: 528px;
   min-height: 581px;
   background-color: #ffffff;
@@ -940,7 +940,6 @@ body {
 .modal-form {
   display: flex;
   flex-direction: column;
-  width: 448px;
   margin: 0 auto;
 }
 
